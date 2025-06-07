@@ -2,8 +2,8 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+TOKEN = os.getenv("7319867151:AAFze7S9G_ebE9LJpfdY7iYSOSwdG1SfnAg")
+CHAT_ID = os.getenv("7229823870")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Merhaba! Randevu botu çalışıyor.")
